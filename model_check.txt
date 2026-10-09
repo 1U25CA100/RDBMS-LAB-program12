@@ -77,4 +77,18 @@ Visual Diagram Created in MySQL Workbench: YES
                  │ Faculty_Name     │
                  │ Specialization   │
                  └──────────────────┘
+INSERT INTO Student VALUES
+(101, 'Arun', 1),
+(102, 'Kumar', 2);
 
+INSERT INTO Course VALUES
+(1, 'BCA', 101, 201),
+(2, 'BSc', 102, 202);
+
+INSERT INTO Faculty VALUES
+(101, 'Ravi'),
+(102, 'Priya');
+
+INSERT INTO Department VALUES
+(201, 'Computer Science'),
+(202, 'Mathematics');
